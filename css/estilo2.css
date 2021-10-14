@@ -1,0 +1,312 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.clear {
+	clear: both;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	height:px;
+}
+.logo img{
+	padding: 10px
+}
+.contatos-top{
+	width: 35%;
+	background: ;
+	height: 40px;
+	float: left;
+
+}
+.contatos-icones{
+	height: 50px;
+	width: 40px;
+	background: ;
+	float: left;
+}
+.contatos1{
+	margin-bottom: 10px;
+}
+.numero-telefone a {
+	color: black;
+	text-decoration: none;
+	font-size: 17px;
+}
+.horario{
+	width: 35%;
+	float: left;
+}
+.relogio-icones{
+	width: 40px;
+	height: 50px;
+	float: left;
+	background: ;
+}
+.working {
+	margin-bottom:10px;
+}
+.mensagem{
+	width: 30%;
+	height: 50px;
+	float:right;
+	background: #222931;
+
+}
+.mensagem a{
+	text-decoration: none;
+	color: white;
+	background: #222931;
+	line-height: 50px;
+	float: right;
+	width: 200px;
+
+}
+.mensagem img{
+		margin: 15px;
+}
+.navegacao {
+	width: 80%;
+	height: 50px;
+	background: #e10404;
+	display: inline-block;
+	margin-top: 20px;	
+
+}
+.navegacao ul{
+	margin: 10;
+	padding: 0;
+}
+
+.menu li{
+	list-style-type: none;
+	float: left;	
+	line-height: 20px;
+}	
+
+.menu a{
+	margin: 15px;
+	color: white;
+	text-decoration: none;
+}
+.menu a:hover{
+	color: white;
+	background:#222931 ;
+	padding: 17px;
+	margin: 0 auto;
+	transition: .4s;
+
+}
+.lupa-icones {
+	width: 20%;
+	float: right;
+	background: #e10404;
+	margin-top: 20px;
+	height: 50px;
+}
+.icone-procurar  {
+	width: 50px;
+	height: 50px;
+	border-right: 1px solid white;
+	display: inline-block;
+	color: white;
+	margin-left: 20px;
+	line-height: 50px;
+	
+}
+.icone-carrinho{
+	float: right;
+	width: 80px;
+	height: 50px;
+	color: white;
+	line-height: 50px;
+	margin-left:;
+}
+/*FIM DO TOPO */
+
+.breadcrumbs {
+	width: 100%;
+	background: #f5f6f6;
+	height: 70px;
+}
+.coluna-1{
+	width: 50%;
+	height: 70px;
+	float: left;
+}
+ 
+}
+.lista-breadcrumps {
+	width: 50%;
+	float: right;
+}
+.lista-breadcrumps ul{
+	margin: 0;
+	padding: 0;
+	
+}
+.sub-menu li{
+	list-style-type: none;
+	float: right;
+	line-height: 70px;
+}
+.sub-menu a{
+	color: black;
+	text-decoration: none;
+	font-size: 12px;
+	margin: 5px;
+}
+/* fim */
+
+.banner {
+	width: 70%;
+	height: 850px;
+	float: left;
+	
+}
+.banner-img img{
+	width: 50%;
+	float: left;
+}
+.banner-texto {
+	width: 50%;
+	background:#e10404 ;
+	float: left	;
+	height: 395px;
+}
+.banner-texto h3{
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+}
+.banner-texto p {
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 30px;
+
+}
+.banner-texto a {
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background: white;
+	padding: 15px;
+	margin: 70px;
+	transition: .7s;
+}
+.banner-texto a:hover{
+	background: #222931;
+	color: white;
+}
+.fa-arrow-right{
+	margin: 15px;
+	color: red;
+}
+.titulo-secundario h2 {
+	width: 100%;
+	color: #e10404;
+	padding: 15px;
+
+}
+.lista li {
+	list-style-type: none;
+	margin: 20px;
+	border-top:  1px solid #e6e8e8; 
+}
+.lista ul {
+	margin: 0;
+	padding: 0;
+}
+.lista-texto a {
+	color:#222931;
+	text-decoration: none;
+	font-weight: bold;
+}
+.coluna-lateral{
+	float: right;
+	width: 25%;
+}
+.lista-lateral li{
+	list-style-type: none;
+	border:  1px solid #e6e8e8;
+	width: 230px;
+	transition: .7s;
+
+}
+.lista-lateral ul {
+	margin: 0;
+	padding: 0;
+
+}
+.menu-lateral li a {
+	color: black;
+	text-decoration: none;
+}
+.menu-lateral li:hover{
+	background: #222931	;
+	color: white;
+}
+.menu-lateral li:hover a{
+	color: white;
+}
+.conteudo-lateral h2{
+	margin: 50px auto;
+	color: #e10404;}
+
+/*fim e comeco rodape */
+
+.rodape{
+	height: 200px;
+	background: #222931 ;
+}
+.coluna-1{
+	width: 50%;
+	float: left;
+}
+.rodape h4{
+	margin: 20px;
+	color: white;
+}
+.rodape p{
+	margin: 20px;
+	color: white;
+}
+.rodape a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 20px;
+}
+.coluna-2{
+	width: 50%;
+	float: right;
+}
+.coluna-2 ul li{
+	list-style-type: none;
+	float: right;
+}
+.coluna-2 ul{
+	padding: 0;
+	margin: 30px;
+
+}
+.coluna-2 a {
+	font-size: 15px;
+}
+
+.coluna-2 a:hover{
+	color: #0270b7;
+}
+
+.icones-sociais-rodape li{
+	margin-top: 30px;
+
+}
+.fim{
+	text-align: center;
+	background: #fff;
+	height: 50px;
+	line-height: 50px;
